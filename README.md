@@ -25,4 +25,9 @@ For a starter, your code may go crazy. The ultimate rescue is still the power bu
 
 To start this, let's start with terminal, replit, and browser.
 
+### Step 01: hello world
+
+Read the hello world in [Brainfuck](https://github.com/un01s/crashes/blob/main/languages/bf/NOTES.md). Then do it in JavaScript in a browser. Do it with [replit](https://replit.com) in python.
+
+As an exercise, write the code in Brainfuck to output your first name.
 
