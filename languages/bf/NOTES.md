@@ -2,8 +2,8 @@
 
 Brainfuck is a programming language created by Urban Müller in 1993. Its corresponding computer has an array of memory cells. Let's say the array is 30,000 cells long. There is a pointer, which points to the first memory cell at the start. Its processor accepts only 8 operators. A program in Brainfuck consists of these operators to realise some function.
 
-| Command | Description |
-| ------- | !---------- |
+| Operator | Description |
+| :-------: | :---------- |
 | ```>``` | Move the pointer to the right |
 | ```<``` | Move the pointer to the left |
 | ```+``` | Increment the memory cell at the pointer |

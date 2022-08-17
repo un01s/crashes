@@ -13,7 +13,7 @@ The key questions to answer here are **what a computer is** and **how to code it
 This content is based around UC Berkeley CS61A, CS61B, CS61C, and CS70. To get there, short intros on C, C++, Python, and JavaScript are required. So the initial approach is through the perspective of programming languages. Then the mental model of programming, and the worldview of the computer.
 
 * [UC Berkeley CS61A](https://cs61a.org)
-* [UC BErkeley CS61B](https://www2.eecs.berkeley.edu/Courses/CS61B/)
+* [UC Berkeley CS61B](https://www2.eecs.berkeley.edu/Courses/CS61B/)
 * [UC Berkeley CS61C](https://www2.eecs.berkeley.edu/Courses/CS61C/)
 * [UC Berkeley CS70](https://www.eecs70.org)
 
@@ -23,6 +23,6 @@ For Windows user, you may see the blue screen of death from time to time. For Li
 
 For a starter, your code may go crazy. The ultimate rescue is still the power button. For a browser, you could just shut down the program or the application. For a terminal, the combo buttons of ```CTRL``` and ```C``` is another way. It is handy to know the usual ways to recover from code errors or computer crashes, big or small.
 
-To start this, let's start with terminals, replit, and browser.
+To start this, let's start with terminal, replit, and browser.
 
 
