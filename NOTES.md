@@ -4,6 +4,10 @@ To err is human. To learn from mistakes and errors is human too.
 
 ## References
 
+### Books
+
+[What computers still can't do, Hubert L. Dreyfus, 1992](https://en.wikipedia.org/wiki/Hubert_Dreyfus%27s_views_on_artificial_intelligence)
+
 ### languages
 
 * [intro to c++, MIT 6.096](https://ocw.mit.edu/courses/6-096-introduction-to-c-january-iap-2011/)
