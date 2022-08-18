@@ -1,0 +1,19 @@
+/*
+ * there are several ways to print a "hello world!" with a browser.
+ * 
+ */
+
+use the developer mode to open the console.
+
+console.log("Hello World!");
+
+use HTML document:
+
+document.write("hello world");
+
+use alert function;
+
+alert("hello\n");
+
+or simply write a single page file.
+

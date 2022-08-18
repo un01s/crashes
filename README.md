@@ -25,7 +25,12 @@ For a starter, your code may go crazy. The ultimate rescue is still the power bu
 
 To start this, let's start with terminal, replit, and browser.
 
-### Step 01: hello world
+### Step 0x00: hello computer
+
+* Goal: use several tools, terminal, browser, and replit.
+* Goal: write code with [Code IDE] or simple text editors.
+* Goal: google hello-world code in C, JavaScript, and Python.
+* Goal: setup the toolchain, compile the C code, and run the hello-world.
 
 Read the hello world in [Brainfuck](https://github.com/un01s/crashes/blob/main/languages/bf/NOTES.md). Then do it in JavaScript in a browser. Do it with [replit](https://replit.com) in python.
 
