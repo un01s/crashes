@@ -19,6 +19,9 @@
 # debugging
 **/*.dSYM
 
+# python
+**/*.pyc
+
 # Precompiled Headers
 *.gch
 *.pch
