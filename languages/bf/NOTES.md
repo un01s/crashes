@@ -1,4 +1,4 @@
-# Brainfuck programming language
+# Brainfuck programming language and turing machine
 
 Brainfuck is a programming language created by Urban Müller in 1993. Its computer has three parts, an array of memory cells (let's say 30,000 cells), a pointer that can be moved along the cells, and a processor that takes operators to move the pointer accordingly or to input the value of a cell or to output the value of a cell. 
  
