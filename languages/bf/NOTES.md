@@ -26,6 +26,16 @@ There is no actual Brainfuck computer. But it is so simple that it can be simula
 
 There are many implementation of Brainfuck compiler or interpreter. Their function is to translate and run the Brainfuck code to human readable results. 
 
+## Run the code
+
+```
+$ python brainfuck.py hello.bf 
+Hello world!
+$ python brainfuck.py test.bf 
+11 
+```
+To run the test, you input one number and got it printed out.
+
 ## what is a computer?
 
 A computer is nothing but a machine that have a memory which can be accessed and modified according to some predefined commands. The memory can be mechanical, electronic, or quantum. The command can be punch cards, voice, or electronic signals. 
@@ -35,4 +45,6 @@ A computer is nothing but a machine that have a memory which can be accessed and
 * [esolang wiki](https://esolangs.org/wiki/Brainfuck)
 * [basics of brainfuck](https://gist.github.com/roachhd/dce54bec8ba55fb17d3a)
 * [collection of BF interpreters](https://github.com/pablojorge/brainfuck)
+* [collection of BF programs](http://brainfuck.org)
+* [notes on BF](http://mazonka.com/brainf/index.html)
 
