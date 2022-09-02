@@ -34,5 +34,7 @@ To start this, let's start with terminal, replit, and browser.
 
 Read the hello world in [Brainfuck](https://github.com/un01s/crashes/blob/main/languages/bf/NOTES.md). Then do it in JavaScript in a browser. Do it with [replit](https://replit.com) in python.
 
-As an exercise, write the code in Brainfuck to output your first name.
+As an exercise, write the code in Brainfuck to print your name.
+
+A computer is just a machine with enough storage cells, whose content can be read and written by the machine according to the content inside these cells. It cann be electronic, mechanical, quantum, or just fictional in your head or on the paper.
 
