@@ -2,7 +2,7 @@
 
 ## 01 computer on paper
 
-## Brainfuck and Turing machine: what is a computer?
+### Brainfuck and Turing machine: what is a computer?
 
 Brainfuck is one programming language with only eight instructions. Brainfuck is also a computer that transforms the input of instructions into a string of texts or numbers. It is a variant of Turing machine. It is as powerful as any existing computers with just limited means of input and output.
 
@@ -28,15 +28,78 @@ As a programming language, BF has eight instructions:
 | ```[``` | Jump past the matching ] if the cell at the pointer is 0 |
 | ```]``` | Jump back to the matching [ if the cell at the pointer is nonzero |
 
-## BF programs: hello computer
+### BF programs: hello computer
 
-## How to write the code for a BF computer?
+Check out the program of hello-world written in BF. The example section inside https://esolangs.org/wiki/Brainfuck.
 
-### ASCII table
+Then check out the visualizer to show you how the program is executed in another browser-based application, https://brainfuck-visualizer.herokuapp.com
+
+### How to write the code for a BF computer?
+
+Think backward, that is, starting from the final result expected. Then reverse.
+
+#### ASCII table
 
 Any character has a value as defined in the ASCII table. More if we go to Unicode, many letters and symbols could be found there.
 
 For example, the string of ```Hello world!``` is actually a string of numbers defined in the ASCII table, 72, 101, 108, 108, 111, 32, 119, 111, 114, 108, 100, 33.
 
+#### How to print out a string of ```ABC```?
 
+Check out the ASCII table: A has the value of 65, B 66, and C 67.
 
+Now how can we get A? One easy but tedious way to get A is to have 65 of instruction ```+```, then use ```.``` to output that value in a cell. Another way is to use the looping instructions, ```[``` to start a loop, ```]``` to end the loop, when the value of a cell pointed by the pointer decremented to zero, the looping stops.
+
+```
++++++ set cell #0 to 5
+[
+ >+++++ +++++ +++ set cell #1 to 13
+ [
+  >+ set cell #2 to 1 * 13 * 5 => 65
+  <- decrement the loop counter in cell #1
+ ]
+ <- decrement the loop counter in cell #0
+]
+cell no: 0  1  2  
+value:   0  0  65
+pointer: ^
+>>. cell #2 has the value of 65
+cell no: 0  1  2  
+value:   0  0  65
+pointer:       ^
++.  cell #2 has the value of 66
++.  cell #2 has the value of 67
+```
+
+So the code without comments is as follows:
+
+```
++++++[>+++++++++++++[>+<-]<-]>>.+.+.
+```
+
+The value of new line in the ASCII table is 10.
+
+Now we a value of 67 in the cell #3. Let us code a 10.
+
+```
+>+++++ cell #4
+[
+ >++ cell #5
+ <-  decrement loop count in cell #4
+]
+>. output cell #5
+```
+
+Add some code to output a new line into cell #5
+```
+>+++++[>++<-]>.
+```
+
+The complete code is as follows:
+
+```
++++++[>+++++++++++++[>+<-]<-]>>.+.+.>+++++[>++<-]>.
+```
+
+Here the method is to calculate first, then output. We calculate A into cell #3 first, then output the value of cell #3. Then calculate B in cell #3, output. Then C. The last is to calculate a new line, which has the value of 10. We need a loop count in cell #4 and store the value in cell #5. After the calculation, we output the value in cell #5.
+ 
