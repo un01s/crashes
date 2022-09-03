@@ -13,6 +13,7 @@ As a computer, BF has three main parts:
   * the address of the first cell is zero, the address of the second cell is one, and so on
   * the number of cells is big enough to hold any programs
 * a pointer that can be moved along the cells according to the instructions
+  * at the start, the pointer points to the first cell
 * a processor that is capable to move the pointer, read and write to a memory cell according to the instructions
 
 As a programming language, BF has eight instructions:
