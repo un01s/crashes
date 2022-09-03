@@ -8,10 +8,10 @@ Brainfuck is one programming language with only eight instructions. Brainfuck is
 
 As a computer, BF has three main parts:
 * an array of memory cells arranged along a line
- * each cell has the initial value of zero
- * each cell has an address 
- * the address of the first cell is zero, the address of the second cell is one, and so on
- * the number of cells is big enough to hold any programs
+  * each cell has the initial value of zero
+  * each cell has an address 
+  * the address of the first cell is zero, the address of the second cell is one, and so on
+  * the number of cells is big enough to hold any programs
 * a pointer that can be moved along the cells according to the instructions
 * a processor that is capable to move the pointer, read and write to a memory cell according to the instructions
 
