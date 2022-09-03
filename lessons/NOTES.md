@@ -8,10 +8,10 @@ Brainfuck is one programming language with only eight instructions. Brainfuck is
 
 As a computer, BF has three main parts:
 * an array of memory cells arranged along a line
-** each cell has the initial value of zero
-** each cell has an address 
-** the address of the first cell is zero, the address of the second cell is one, and so on
-** the number of cells is big enough to hold any programs
+ * each cell has the initial value of zero
+ * each cell has an address 
+ * the address of the first cell is zero, the address of the second cell is one, and so on
+ * the number of cells is big enough to hold any programs
 * a pointer that can be moved along the cells according to the instructions
 * a processor that is capable to move the pointer, read and write to a memory cell according to the instructions
 
@@ -102,4 +102,10 @@ The complete code is as follows:
 ```
 
 Here the method is to calculate first, then output. We calculate A into cell #3 first, then output the value of cell #3. Then calculate B in cell #3, output. Then C. The last is to calculate a new line, which has the value of 10. We need a loop count in cell #4 and store the value in cell #5. After the calculation, we output the value in cell #5.
+
+#### how to run the code?
+
+There are many ways to run the code. You can build a BF interpreter in C, python, C++, JavaScript, and so on. 
+
+Here is one online version, https://copy.sh/brainfuck/. Another, https://sange.fi/esoteric/brainfuck/impl/interp/i.html
  
