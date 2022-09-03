@@ -48,7 +48,7 @@ For example, the string of ```Hello world!``` is actually a string of numbers de
 
 Check out the ASCII table: A has the value of 65, B 66, and C 67.
 
-Now how can we get A? One easy but tedious way to get A is to have 65 of instruction ```+```, then use ```.``` to output that value in a cell. Another way is to use the looping instructions, ```[``` to start a loop, ```]``` to end the loop, when the value of a cell pointed by the pointer decremented to zero, the looping stops.
+Now how can we get A? One easy but tedious way to get A is to have 65 of instruction ```+```, then use ```.``` to output that value in a cell. Another way is to use the looping instructions, ```[``` as the start, ```]``` as the end the loop, when the value of a cell pointed by the pointer decremented to zero, the looping stops.
 
 ```
 +++++ set cell #0 to 5
