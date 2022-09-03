@@ -47,4 +47,8 @@ A computer is nothing but a machine that have a memory which can be accessed and
 * [collection of BF interpreters](https://github.com/pablojorge/brainfuck)
 * [collection of BF programs](http://brainfuck.org)
 * [notes on BF](http://mazonka.com/brainf/index.html)
+* [bf visualizer](https://brainfuck-visualizer.herokuapp.com)
+* [source code of visualizer](https://github.com/usaikiran/brainfuck-visualizer)
+* [bf debugger](https://minond.xyz/brainfuck/)
+* [bf IDE](https://github.com/wmww/BrainfuckIDE)
 
